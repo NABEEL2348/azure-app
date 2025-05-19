@@ -7,8 +7,6 @@ from opencensus.ext.azure.log_exporter import AzureLogHandler
 
 
 app=Flask(__name__)
-Restart =0
-Thershold=1
 
 INSTRMENTATION_KEY = os.environ.get("APPINSIGHTS_INSTRUMENTATIONKEY")
 
